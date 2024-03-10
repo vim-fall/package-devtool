@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vim-fall.github.io/jsonschema/v1/package.schema.json",
+  "action": {
+    "debug": {
+      "url": "./action/debug.ts"
+    }
+  },
+  "source": {
+    "list": {
+      "url": "./source/list.ts",
+      "options": {
+        "items": [
+          {
+            "value": "a"
+          },
+          {
+            "value": "b"
+          },
+          {
+            "value": "c"
+          },
+          {
+            "value": "d"
+          },
+          {
+            "value": "e"
+          }
+        ]
+      }
+    }
+  }
+}
